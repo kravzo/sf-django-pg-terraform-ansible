@@ -8,6 +8,8 @@ $ ssh-keygen -t rsa
 
 $ cp ~/.ssh/id_rsa* ./
 
+В файл sf-django-pg-terraform-ansible/terraform/main.tf необходимо добавить реквизиты YandexCloud
+
 $ cd terraform && terraform init && terraform apply
 
 В результате выполнения команд будет создан набор серверов
